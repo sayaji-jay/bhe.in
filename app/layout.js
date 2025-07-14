@@ -1,6 +1,7 @@
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
-
+import SiteHeader from "@/components/headerbar.jsx";
+import SiteFooter from "@/components/footer.jsx";
 const geistSans = Geist({
   variable: "--font-geist-sans",
   subsets: ["latin"],
@@ -22,7 +23,15 @@ export default function RootLayout({ children }) {
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        {children}
+        <div className="relative min-h-screen flex flex-col bg-gradient-to-br from-green-50 via-white to-green-50">
+          <SiteHeader />
+          {/* Main Content with Padding */}
+          <main className="flex-grow">
+            {children}
+          </main>
+          
+          <SiteFooter />
+        </div>
       </body>
     </html>
   );
