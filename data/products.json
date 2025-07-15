@@ -1,0 +1,126 @@
+{
+  "categories": [
+    {
+      "category_id": "electronics",
+      "title": "Electronics",
+      "image": "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=300&h=300&fit=crop",
+      "description": "Latest gadgets and devices for your tech needs."
+    },
+    {
+      "category_id": "sports",
+      "title": "Sports",
+      "image": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=300&h=300&fit=crop",
+      "description": "Gear and equipment for all your sporting activities."
+    },
+    {
+      "category_id": "kitchen",
+      "title": "Kitchen",
+      "image": "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?w=300&h=300&fit=crop",
+      "description": "Modern appliances and tools for your kitchen."
+    },
+    {
+      "category_id": "fashion",
+      "title": "Fashion",
+      "image": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=300&h=300&fit=crop",
+      "description": "Trendy and stylish accessories and clothing."
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "product_name": "Smartphone Pro Max",
+      "composition": "Latest 5G smartphone with advanced camera system",
+      "category_id": "electronics",
+      "image": "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=300&h=300&fit=crop",
+      "price": "$999"
+    },
+    {
+      "id": 2,
+      "product_name": "Wireless Headphones",
+      "composition": "Premium noise-cancelling wireless headphones",
+      "category_id": "electronics",
+      "image": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=300&h=300&fit=crop",
+      "price": "$299"
+    },
+    {
+      "id": 3,
+      "product_name": "Running Shoes",
+      "composition": "Comfortable athletic shoes for daily running",
+      "category_id": "sports",
+      "image": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=300&h=300&fit=crop",
+      "price": "$129"
+    },
+    {
+      "id": 4,
+      "product_name": "Yoga Mat",
+      "composition": "Non-slip premium yoga mat for all exercises",
+      "category_id": "sports",
+      "image": "https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?w=300&h=300&fit=crop",
+      "price": "$49"
+    },
+    {
+      "id": 5,
+      "product_name": "Coffee Maker",
+      "composition": "Automatic drip coffee maker with programmable timer",
+      "category_id": "kitchen",
+      "image": "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?w=300&h=300&fit=crop",
+      "price": "$89"
+    },
+    {
+      "id": 6,
+      "product_name": "Blender",
+      "composition": "High-speed blender for smoothies and food prep",
+      "category_id": "kitchen",
+      "image": "https://images.unsplash.com/photo-1570197788417-0e82375c9371?w=300&h=300&fit=crop",
+      "price": "$159"
+    },
+    {
+      "id": 7,
+      "product_name": "Leather Wallet",
+      "composition": "Genuine leather wallet with multiple card slots",
+      "category_id": "fashion",
+      "image": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=300&h=300&fit=crop",
+      "price": "$69"
+    },
+    {
+      "id": 8,
+      "product_name": "Sunglasses",
+      "composition": "UV protection sunglasses with polarized lenses",
+      "category_id": "fashion",
+      "image": "https://images.unsplash.com/photo-1572635196237-14b3f281503f?w=300&h=300&fit=crop",
+      "price": "$199"
+    },
+    {
+      "id": 9,
+      "product_name": "Gaming Laptop",
+      "composition": "High-performance gaming laptop with RTX graphics",
+      "category_id": "electronics",
+      "image": "https://images.unsplash.com/photo-1603302576837-37561b2e2302?w=300&h=300&fit=crop",
+      "price": "$1299"
+    },
+    {
+      "id": 10,
+      "product_name": "Basketball",
+      "composition": "Professional grade basketball for indoor/outdoor play",
+      "category_id": "sports",
+      "image": "https://images.unsplash.com/photo-1546519638-68e109498ffc?w=300&h=300&fit=crop",
+      "price": "$39"
+    },
+    {
+      "id": 11,
+      "product_name": "Air Fryer",
+      "composition": "Healthy cooking air fryer with digital controls",
+      "category_id": "kitchen",
+      "image": "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=300&h=300&fit=crop",
+      "price": "$119"
+    },
+    {
+      "id": 12,
+      "product_name": "Watch",
+      "composition": "Stylish analog watch with leather strap",
+      "category_id": "fashion",
+      "image": "https://images.unsplash.com/photo-1524592094714-0f0654e20314?w=300&h=300&fit=crop",
+      "price": "$249"
+    }
+  ]
+} 
