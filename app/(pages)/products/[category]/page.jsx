@@ -11,9 +11,9 @@ const ProductCard = ({ product, router }) => (
   onClick={() => router.push(`/products/${product.category_id}/${product.product_name}`)}
   >
     <img src={product.image} alt={product.product_name} className="w-32 h-32 object-cover mb-4 rounded" />
-    <h2 className="text-lg font-semibold mb-2 text-green-900">{product.product_name}</h2>
+    <h2 className="text-lg font-semibold mb-2 text-blue-900">{product.product_name}</h2>
     <p className="text-gray-600 mb-1 text-center">{product.composition}</p>
-    <span className="text-green-700 font-bold">{product.price}</span>
+    <span className="text-blue-700 font-bold">{product.price}</span>
   </div>
 );
 
@@ -54,37 +54,37 @@ const Page = () => {
   }
 
   return (
-    <main className="min-h-screen bg-gradient-to-b from-green-50/50 to-white pt-20">
+    <main className="min-h-screen bg-gradient-to-b from-blue-50/50 to-white pt-20">
       {/* Header Section */}
       <section className="relative py-20 overflow-hidden">
         {/* Decorative Elements */}
         <div className="absolute inset-0">
-          <div className="absolute top-10 left-10 w-32 h-32 border border-green-200 rounded-full opacity-20" />
-          <div className="absolute bottom-10 right-10 w-24 h-24 border border-green-200 rounded-full opacity-20" />
-          <div className="absolute top-1/2 left-1/4 w-16 h-16 border border-green-200 rounded-full opacity-20" />
+          <div className="absolute top-10 left-10 w-32 h-32 border border-blue-200 rounded-full opacity-20" />
+          <div className="absolute bottom-10 right-10 w-24 h-24 border border-blue-200 rounded-full opacity-20" />
+          <div className="absolute top-1/2 left-1/4 w-16 h-16 border border-blue-200 rounded-full opacity-20" />
         </div>
 
         <div className="container mx-auto px-4 relative z-10">
           <div className="text-center max-w-3xl mx-auto">
             <div className="flex items-center justify-center space-x-2 mb-4">
-              <div className="w-8 h-px bg-green-600/30" />
-              <span className="text-sm font-medium tracking-wide uppercase text-green-800">
+              <div className="w-8 h-px bg-blue-600/30" />
+              <span className="text-sm font-medium tracking-wide uppercase text-blue-800">
                 {/* If you want to show an icon, add it to your category data and use here */}
                 {categoryDetails.icon && <span className="mr-1">{categoryDetails.icon}</span>}
                 {categoryDetails.title}
               </span>
-              <div className="w-8 h-px bg-green-600/30" />
+              <div className="w-8 h-px bg-blue-600/30" />
             </div>
 
-            <h1 className="text-4xl md:text-5xl font-bold text-green-900 mb-6">
+            <h1 className="text-4xl md:text-5xl font-bold text-blue-900 mb-6">
               Advanced Agricultural{" "}
-              <span className="text-green-600 relative">
+              <span className="text-blue-600 relative">
                 {categoryDetails.title}
-                <div className="absolute -bottom-2 left-0 w-full h-1 bg-green-200 rounded" />
+                <div className="absolute -bottom-2 left-0 w-full h-1 bg-blue-200 rounded" />
               </span>
             </h1>
 
-            <p className="text-green-700 text-lg">
+            <p className="text-blue-700 text-lg">
               {categoryDetails.description}
             </p>
           </div>
@@ -102,7 +102,7 @@ const Page = () => {
 
           {products.length === 0 && (
             <div className="text-center py-12">
-              <p className="text-lg text-green-700">No products found in this category.</p>
+              <p className="text-lg text-blue-700">No products found in this category.</p>
             </div>
           )}
         </div>
