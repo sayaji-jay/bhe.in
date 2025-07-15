@@ -4,16 +4,20 @@ import React, { useState, useEffect } from 'react';
 import { useParams } from 'next/navigation';
 import { getProductsData } from '@/lib/dataUtils';
 import { useRouter } from 'next/navigation';
+import { Badge } from "@/components/ui/badge"
+
+
 // Minimal ProductCard component for displaying product info
 const ProductCard = ({ product, router }) => (
   <div 
   className="border rounded-lg p-6 bg-white shadow flex flex-col items-center"
-  onClick={() => router.push(`/products/${product.category_id}/${product.product_name}`)}
+  onClick={() => router.push(`/products/${product.category_id}/${product.slug}`)}
   >
     <img src={product.image} alt={product.product_name} className="w-32 h-32 object-cover mb-4 rounded" />
     <h2 className="text-lg font-semibold mb-2 text-blue-900">{product.product_name}</h2>
-    <p className="text-gray-600 mb-1 text-center">{product.composition}</p>
-    <span className="text-blue-700 font-bold">{product.price}</span>
+    <p className="text-gray-600 text-sm mb-2 text-center">{product.application}</p>
+    <Badge variant="outline" className="mb-2">Size : {product.size}</Badge>
+    <Badge variant="outline" className="mb-2">Material : {product.material}</Badge>
   </div>
 );
 
