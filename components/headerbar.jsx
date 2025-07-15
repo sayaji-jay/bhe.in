@@ -28,7 +28,7 @@ const SiteHeader = () => {
     { href: "/products", label: "Products" }, 
     { href: "/quality-assurance", label: "Quality Assurance" },
     { href: "/facility", label: "Facility" },
-    { href: "/careers", label: "Careers" },
+    // { href: "/careers", label: "Careers" },
     { href: "/about-us", label: "About Us" },
     { href: "/contact", label: "Contact" },
   ]
@@ -42,7 +42,7 @@ const SiteHeader = () => {
 
   // Determine which logo to show
   const shouldShowWhiteLogo = isHomePage && !isScrolled
-  const logoSrc = shouldShowWhiteLogo ? "/images/bhe-logo.jpg" : "/images/bhe-logo.jpg"
+  const logoSrc = shouldShowWhiteLogo ? "/images/bhe-logo-white.png" : "/images/bhe-logo.png"
 
   return (
     <header className={clsx(

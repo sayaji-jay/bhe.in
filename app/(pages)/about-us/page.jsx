@@ -1,80 +1,73 @@
 import React from 'react';
-import { ScanHeart, Brain, Zap, FlaskConical, Target, BarChart3, ShieldCheck, Earth, CheckCircle } from 'lucide-react';
+import { ScanHeart, Brain, Zap, FlaskConical, Target, BarChart3, ShieldCheck, Earth, CheckCircle, Wrench, Layers, PackageSearch, Award, Factory } from 'lucide-react';
 
 const AboutUsPage = () => {
   const strengths = [
     {
-      title: "Quick decision-making",
-      icon: Zap,
+      title: "Advanced Manufacturing Facilities",
+      icon: Factory,
       color: "bg-blue-100 text-blue-600",
     },
     {
-      title: "Strong in Research & Development",
-      icon: Brain,
+      title: "Custom Engineering Solutions",
+      icon: Wrench,
       color: "bg-orange-100 text-orange-600",
     },
     {
-      title: "Easy Adaptability for new Technology",
-      icon: Target,
+      title: "Stringent Quality Assurance",
+      icon: ShieldCheck,
       color: "bg-emerald-100 text-emerald-600",
     },
     {
-      title: "Strong in Formulations",
-      icon: FlaskConical,
+      title: "Technical Expertise",
+      icon: Brain,
       color: "bg-yellow-100 text-yellow-600",
     },
     {
-      title: "Strong Marketing Resources",
-      icon: BarChart3,
+      title: "Wide Product Range",
+      icon: Layers,
       color: "bg-blue-100 text-blue-600",
+    },
+    {
+      title: "On-Time Delivery",
+      icon: PackageSearch,
+      color: "bg-orange-100 text-orange-600",
     },
   ];
 
   const qualityPolicies = [
-    "To Achieve and Enhance Customer Satisfaction we are committed to provide quality product and service on time.",
-    "Manufacture products through processes developed using in-house research and development.",
-    "To continually Evaluate and Improve the effectiveness of the Quality Management System by establishing and reviewing.",
+    "We are committed to delivering products that meet or exceed international quality standards for industrial hoses, bellows, and assemblies.",
+    "Every product undergoes rigorous inspection and testing for pressure, temperature, chemical resistance, and dimensional accuracy.",
+    "We continually improve our processes and invest in advanced technology to ensure consistent quality and customer satisfaction."
   ];
 
   const healthSafetyPolicies = [
-    "LINEMARK is committed to provide and maintain all its employees safe & sustainable work place with necessary safety gadgets and ensure safe working methods all the time.",
-    "Every employee shall observe safety rules and regulation at all the times. He/she adopt safe and appropriate procedure during performing his/her duty.",
-    "Every employee will assume self responsibility, take active part and extended fullest co-operation in maintaining and improving safety standards.",
-    "It shall be the constant endeavour of the company to ensure that the surrounding environment is not endangered while carrying out its business operations.",
-    "Company will impart necessary training to all its employees and will make them aware about how to perform their duties safety and effectively.",
-    "LINEMARK will indulge knowledge for safety & health consciousness among all employees and contractors.",
-    "Ensuring safety and preservation of any damage or injury to plant or person shall be the prime responsibility at all supervisory and managerial levels.",
+    "We maintain a safe and sustainable workplace, providing all employees with necessary safety equipment and training.",
+    "All staff are required to follow safety protocols and procedures at every stage of manufacturing and testing.",
+    "We are committed to preventing workplace injuries and maintaining a healthy environment for our team and visitors."
   ];
 
   const environmentPolicies = [
-    "Institutionalize and promote pollution prevention practice by implementing best operating practices.",
-    "Comply with all applicable environmental and other requirements.",
-    "Maintain the good standards of visual appearance, cleanliness and tidiness of our building by good housekeeping.",
-    "Optimize consumption of resources especially electricity and water.",
-    "Promote and enhance respect and necessary skills for environment preservation among our employees by effective training and involvement.",
-    "To develop blue belt on the periphery of company and within the premise.",
-    "Take into consideration of environmental issues when designing new product/new formulation.",
+    "We minimize our environmental impact by optimizing resource consumption and reducing waste in our manufacturing processes.",
+    "We comply with all applicable environmental regulations and promote pollution prevention practices.",
+    "We invest in technologies and processes that support sustainability and environmental stewardship."
   ];
 
   const productCategories = [
-    { name: "Insecticide", count: 16, color: "bg-blue-100 text-blue-600" },
-    { name: "Fungicide", count: 10, color: "bg-blue-100 text-blue-600" },
-    { name: "Herbicide", count: 5, color: "bg-emerald-100 text-emerald-600" },
-    { name: "Plant Growth Regulator", count: 3, color: "bg-yellow-100 text-yellow-600" },
-    { name: "Biostimulant", count: 7, color: "bg-orange-100 text-orange-600" },
-    { name: "Fertilizers And Bio Fertilizers", count: 10, color: "bg-purple-100 text-purple-600" },
+    { name: "Hoses", description: "Industrial hoses for air, steam, chemical, and hydraulic applications." },
+    { name: "Bellows", description: "Flexible components for piping systems to absorb movement and vibration." },
+    { name: "Hose Assemblies", description: "Pre-assembled hoses with fittings for specific industrial needs." },
+    { name: "Fittings & Couplings", description: "Customized fittings, cam lock and QRC couplings for industrial connections." },
   ];
 
   const aboutPoints = [
-    "Linermark Crop Care was founded in 2019 and is based in Vadodara, Gujarat. We serve rural India by manufacturing and supplying Agricultural Chemicals, Bio Stimulants, Seeds & Fertilizers.",
-    "We leverage our capabilities to deliver trusted crop protection and plant nutrient products that help farmers cultivate high-quality crops and boost productivity.",
-    "Our operations are supported by advanced manufacturing facilities, with strict quality control to ensure we deliver only the best to our customers.",
-    "Our R&D team collaborates with farmers to develop innovative technologies and products that increase yield and solve real farming challenges.",
-    "We maintain a strong local presence with a well-established sales network across India.",
-    "We are committed to long-term rural support—continually upgrading our products and evolving our solutions to meet the ever-changing needs of agriculture."
+    "Best Hydraulic Engineering is a leading manufacturer of S.S. wire braided, PTFE, and corrugated hoses, hydraulic hoses, rubber hose assemblies, bellows, and industrial fittings.",
+    "Our state-of-the-art manufacturing facility is equipped with advanced machinery and a dedicated quality control laboratory, ensuring every product meets the highest standards of reliability and safety.",
+    "We serve a wide range of industries including chemical, pharmaceutical, automotive, power, and general engineering, providing custom solutions tailored to each client's requirements.",
+    "Our experienced engineering team and skilled workforce are committed to continuous innovation, product development, and process improvement.",
+    "We pride ourselves on our ability to deliver high-quality products on time, backed by responsive customer service and technical support.",
+    "Our product portfolio includes hoses, bellows, assemblies, and fittings designed for demanding industrial applications, with a focus on durability, flexibility, and performance."
   ];
-
-  const totalProducts = productCategories.reduce((sum, category) => sum + category.count, 0);
 
   return (
     <main className="min-h-screen bg-gradient-to-b from-blue-50/50 to-white pt-20">
@@ -96,11 +89,7 @@ const AboutUsPage = () => {
             </div>
 
             <h1 className="text-4xl md:text-5xl font-bold text-blue-900 mb-6">
-              Empowering Farmers for a{" "}
-              <span className="text-blue-600 relative">
-                blueer Future
-                <div className="absolute -bottom-2 left-0 w-full h-1 bg-blue-200 rounded" />
-              </span>
+              Engineering Excellence for <span className="text-blue-600 relative">Industrial Solutions<div className="absolute -bottom-2 left-0 w-full h-1 bg-blue-200 rounded" /></span>
             </h1>
           </div>
         </div>
@@ -120,11 +109,32 @@ const AboutUsPage = () => {
         </div>
       </section>
 
-      {/* Our Strength Section */}
+      {/* Product Categories Section */}
       <section className="py-16 bg-white">
         <div className="container mx-auto px-4">
           <h2 className="text-3xl font-bold text-center text-blue-900 mb-12">
-            Our Strength
+            Our Product Range
+          </h2>
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 max-w-6xl mx-auto">
+            {productCategories.map((cat, index) => (
+              <div
+                key={index}
+                className="p-6 rounded-xl shadow-lg hover:shadow-xl transition-shadow bg-white border border-blue-100 text-center"
+              >
+                <Award className="w-10 h-10 text-blue-600 mb-4 mx-auto" />
+                <h3 className="text-xl font-semibold text-blue-900 mb-2">{cat.name}</h3>
+                <p className="text-blue-700 text-base">{cat.description}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Our Strength Section */}
+      <section className="py-16">
+        <div className="container mx-auto px-4">
+          <h2 className="text-3xl font-bold text-center text-blue-900 mb-12">
+            Our Strengths
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
             {strengths.map((strength, index) => (

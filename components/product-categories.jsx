@@ -59,7 +59,7 @@ const ProductCategories = () => {
           </h2>
 
           <p className="text-white/80 text-lg max-w-2xl mx-auto">
-            Comprehensive agricultural solutions for all your farming needs
+          Reliable hydraulic systems and components for industrial performance
           </p>
         </div>
 

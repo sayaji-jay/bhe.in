@@ -38,14 +38,14 @@ export default function ContactPage() {
               <span className="text-sm font-medium tracking-wide uppercase text-blue-800">Contact Us</span>
               <div className="w-8 h-px bg-blue-600/30" />
             </div>
-
             <h1 className="text-4xl md:text-5xl font-bold text-blue-900 mb-6">
-              Empowering Farmers for a{" "}
+              Powering Industry for a{" "}
               <span className="text-blue-600 relative">
-                blueer Future
+                Stronger Future
                 <div className="absolute -bottom-2 left-0 w-full h-1 bg-blue-200 rounded" />
               </span>
             </h1>
+
           </div>
         </div>
       </section>
@@ -65,10 +65,10 @@ export default function ContactPage() {
                   <h3 className="text-gray-600 text-sm">Phone Number</h3>
                   <div className="space-y-1">
                     <a href="tel:+917862819867" className="block text-lg font-semibold text-gray-800 hover:text-blue-600 transition-colors">
-                      +91 7862819867
+                      +91 9510912307
                     </a>
                     <a href="tel:+918347939699" className="block text-lg font-semibold text-gray-800 hover:text-blue-600 transition-colors">
-                      +91 8347939699
+                      +91 9081193351
                     </a>
                   </div>
                 </div>
@@ -80,8 +80,8 @@ export default function ContactPage() {
                 </div>
                 <div>
                   <h3 className="text-gray-600 text-sm">Email Address</h3>
-                  <a href="mailto:linemarkcropcare@gmail.com" className="text-lg font-semibold text-gray-800 hover:text-blue-600 transition-colors">
-                    linemarkcropcare@gmail.com
+                  <a href="mailto:besthydrauliceng@gmail.com" className="text-lg font-semibold text-gray-800 hover:text-blue-600 transition-colors">
+                    besthydrauliceng@gmail.com
                   </a>
                 </div>
               </div>
@@ -92,8 +92,8 @@ export default function ContactPage() {
                 </div>
                 <div>
                   <h3 className="text-gray-600 text-sm">Website</h3>
-                  <a href="https://www.linemarkcropcare.com" target="_blank" rel="noopener noreferrer" className="text-lg font-semibold text-gray-800 hover:text-blue-600 transition-colors">
-                    www.linemarkcropcare.com
+                  <a href="https://www.besthydeng.com" target="_blank" rel="noopener noreferrer" className="text-lg font-semibold text-gray-800 hover:text-blue-600 transition-colors">
+                    www.besthydeng.com
                   </a>
                 </div>
               </div>
@@ -105,10 +105,7 @@ export default function ContactPage() {
                 <div>
                   <h3 className="text-gray-600 text-sm">Survey Address</h3>
                   <p className="text-lg font-semibold text-gray-800">
-                    Survey No : 91/ B, Part - II,<br />
-                    Village - Ujjeti, Baska - Ujjeti Road,<br />
-                    Taluka - Halol, Dist - Panchmahal,<br />
-                    Gujarat.
+                  Omkar Estate Plot No : 139/30, 102- First Floor, Near Wockhardt Ltd, G.I.D.C., Ankleshwar-393 002, Gujarat.
                   </p>
                 </div>
               </div>
@@ -200,11 +197,7 @@ export default function ContactPage() {
             <h2 className="text-2xl font-bold text-gray-800 mb-8">Our Location</h2>
             <div className="w-full">
               <iframe
-
-
-
-
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d29502.333792139052!2d73.42077545211794!3d22.436863693640394!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395fd5c1e31b1c4d%3A0x509f8321225ee29e!2sUjeti%2C%20Gujarat!5e0!3m2!1sen!2sin!4v1751691791736!5m2!1sen!2sin"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3708.8541171683405!2d72.99055317490759!3d21.63060758017362!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be02400748f4e71%3A0xf6d693c6fe52ad4e!2sOmkar%20Buildility%20Limited!5e0!3m2!1sen!2sin!4v1752577352483!5m2!1sen!2sin"
                 width="100%"
                 height="450"
                 style={{ border: 0 }}

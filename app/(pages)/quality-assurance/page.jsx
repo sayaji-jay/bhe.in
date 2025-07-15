@@ -5,34 +5,47 @@ import Image from "next/image"
 const checkingParameters = [
   { 
     title: "Material Inspection", 
-    description: "Thorough examination of raw materials and ingredients",
+    description: "Thorough inspection of raw materials such as S.S. wire, PTFE, and other critical components to ensure compliance with industrial standards.",
     icon: Shield
   },
   { 
-    title: "Production Monitoring", 
-    description: "Continuous monitoring of manufacturing processes",
+    title: "Dimensional Accuracy", 
+    description: "Precise measurement and verification of hose dimensions and fittings for perfect compatibility and safety.",
     icon: Target
   },
   { 
-    title: "Final Output Check", 
-    description: "Comprehensive testing of finished products",
+    title: "Pressure & Temperature Testing", 
+    description: "Testing hoses and assemblies under extreme pressure and temperature ranges (-70°C to +260°C) to guarantee performance.",
     icon: Check
   },
   { 
-    title: "Performance Testing", 
-    description: "Rigorous evaluation of product effectiveness",
+    title: "Chemical Resistance Evaluation", 
+    description: "Assessment of chemical inertness and resistance to weathering, oxidation, and surface fouling.",
     icon: Award
   },
   { 
-    title: "International Standards", 
-    description: "Compliance with global quality norms",
+    title: "Final Output Check", 
+    description: "Comprehensive leak, flexibility, and durability testing of finished products.",
     icon: Shield
   },
   { 
-    title: "Secure Packaging", 
-    description: "Tamper-free and reliable packaging solutions",
+    title: "Packaging Inspection", 
+    description: "Ensuring tamper-free, reliable, and export-grade packaging for safe delivery.",
     icon: Target
   },
+]
+
+const ptfeBenefits = [
+  "Wide operating temperature range (-70°C to +260°C)",
+  "Inert to virtually all chemicals",
+  "Weather/ageing resistant: unaffected by UV, oxidation, fouling, or discoloration",
+  "Non-flammable",
+  "Lightweight",
+  "Superior flex fatigue life",
+  "Low permeability",
+  "Extremely low frictional properties",
+  "Unlimited shelf life",
+  "Solvent resistant"
 ]
 
 const QualityAssurancePage = () => {
@@ -48,14 +61,10 @@ const QualityAssurancePage = () => {
               <div className="w-8 h-px bg-blue-600" />
             </div>
             <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 mb-6 leading-tight">
-              Ensuring Excellence in{" "}
-              <span className="text-blue-600 relative">
-                Every Product
-                <div className="absolute -bottom-2 left-0 w-full h-1 bg-yellow-400 rounded" />
-              </span>
+              Quality Assurance in <span className="text-blue-600 relative">Flexible Hoses & Assemblies<div className="absolute -bottom-2 left-0 w-full h-1 bg-yellow-400 rounded" /></span>
             </h1>
             <p className="text-gray-600 text-lg">
-              We prioritize quality above all. Our products are formulated by experienced professionals using supreme quality ingredients following international standards.
+              We are committed to delivering the highest quality stainless steel wire braided, PTFE, and corrugated hoses, as well as hydraulic and rubber hose assemblies. Every product undergoes rigorous quality checks to ensure reliability and safety in critical industrial applications.
             </p>
           </div>
         </div>
@@ -79,9 +88,9 @@ const QualityAssurancePage = () => {
               </div>
             </div>
             <div className="space-y-6">
-              <h2 className="text-2xl font-bold text-gray-900">Products Checking Parameters</h2>
+              <h2 className="text-2xl font-bold text-gray-900">Product Quality Parameters</h2>
               <p className="text-gray-600 text-lg">
-                Our quality experts examine products on varied parameters to ensure flawlessness and efficiency.
+                Our quality experts meticulously examine each hose and assembly on multiple parameters to ensure flawless performance and long-term reliability in demanding environments.
               </p>
               <div className="grid grid-cols-1 gap-4">
                 {checkingParameters.slice(0, 4).map((param, index) => {
@@ -106,33 +115,55 @@ const QualityAssurancePage = () => {
         </div>
       </section>
 
-      {/* Quality Stats Section */}
+      {/* PTFE Hose Benefits Section */}
       <section className="py-20 bg-white">
+        <div className="container mx-auto px-4">
+          <div className="max-w-3xl mx-auto">
+            <div className="text-center mb-12">
+              <Award className="w-12 h-12 text-blue-600 mx-auto mb-4" />
+              <h2 className="text-3xl font-bold text-gray-900 mb-4">Why Choose Our PTFE Hoses?</h2>
+              <p className="text-gray-600 text-lg">
+                Our PTFE hoses offer unmatched performance and durability, making them ideal for a wide range of industrial applications. Here are some of the key benefits:
+              </p>
+            </div>
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+              {ptfeBenefits.map((benefit, idx) => (
+                <div key={idx} className="flex items-start space-x-3">
+                  <Check className="w-6 h-6 text-blue-600 mt-1" />
+                  <span className="text-gray-700 text-base">{benefit}</span>
+                </div>
+              ))}
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Quality Stats Section */}
+      <section className="py-20 bg-gray-50">
         <div className="container mx-auto px-4">
           <div className="max-w-3xl mx-auto">
             <div className="text-center mb-12">
               <Award className="w-12 h-12 text-blue-600 mx-auto mb-4" />
               <h2 className="text-3xl font-bold text-gray-900 mb-4">Our Commitment to Quality</h2>
               <p className="text-gray-600 text-lg">
-                These parameters are strictly inspected by our team of rigid quality analyzers. Through our comprehensive quality assurance process, we ensure every product meets the highest standards of excellence before reaching our customers.
+                Every hose and assembly is strictly inspected by our team of quality experts. Our comprehensive quality assurance process ensures that each product meets the highest standards before reaching our customers.
               </p>
             </div>
-
             <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
-              <div className="text-center p-6 bg-gray-50 rounded-lg">
+              <div className="text-center p-6 bg-white rounded-lg">
                 <div className="text-3xl font-bold text-blue-600">100%</div>
                 <div className="text-sm text-gray-600 mt-1">Quality Tested</div>
               </div>
-              <div className="text-center p-6 bg-gray-50 rounded-lg">
+              <div className="text-center p-6 bg-white rounded-lg">
                 <div className="text-3xl font-bold text-blue-600">24/7</div>
                 <div className="text-sm text-gray-600 mt-1">Monitoring</div>
               </div>
-              <div className="text-center p-6 bg-gray-50 rounded-lg">
+              <div className="text-center p-6 bg-white rounded-lg">
                 <div className="text-3xl font-bold text-blue-600">ISO</div>
                 <div className="text-sm text-gray-600 mt-1">Certified</div>
               </div>
-              <div className="text-center p-6 bg-gray-50 rounded-lg">
-                <div className="text-3xl font-bold text-blue-600">6+</div>
+              <div className="text-center p-6 bg-white rounded-lg">
+                <div className="text-3xl font-bold text-blue-600">10+</div>
                 <div className="text-sm text-gray-600 mt-1">Parameters</div>
               </div>
             </div>

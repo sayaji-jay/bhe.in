@@ -81,12 +81,13 @@ const Page = () => {
             </div>
 
             <h1 className="text-4xl md:text-5xl font-bold text-blue-900 mb-6">
-              Advanced Agricultural{" "}
+              Precision Engineered{" "}
               <span className="text-blue-600 relative">
                 {categoryDetails.title}
                 <div className="absolute -bottom-2 left-0 w-full h-1 bg-blue-200 rounded" />
               </span>
             </h1>
+
 
             <p className="text-blue-700 text-lg">
               {categoryDetails.description}

@@ -33,32 +33,36 @@ const FacebookSection = () => {
 
           {/* Contact Section */}
           <motion.div 
-            initial={{ opacity: 0, x: 20 }}
-            whileInView={{ opacity: 1, x: 0 }}
-            transition={{ duration: 0.6 }}
-            className="text-white space-y-6 p-8"
-          >
-            <h2 className="text-4xl md:text-5xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-white via-white to-white/80">
-              Get in Touch
-            </h2>
-            <div className="h-1 w-20 bg-gradient-to-r from-blue-500 to-blue-600" />
-            <p className="text-lg text-white/80 leading-relaxed">
-              Have questions about our services? Need expert agricultural solutions? 
-              Our team is here to help you achieve sustainable growth and success in your farming endeavors.
-            </p>
-            <p className="text-lg text-white/80 leading-relaxed">
-              Connect with us today and discover how we can transform your agricultural practices with our innovative solutions.
-            </p>
-            <Button 
-              asChild
-              size="lg" 
-              className="bg-gradient-to-r from-blue-500 to-blue-600 hover:from-blue-600 hover:to-blue-700 text-white border-2 border-white/20 rounded-full px-8 py-6 text-lg shadow-xl hover:shadow-blue-500/20 transition-all duration-300 hover:scale-105 mt-6"
-            >
-              <Link href="/contact">
-                Contact Us Now
-              </Link>
-            </Button>
-          </motion.div>
+  initial={{ opacity: 0, x: 20 }}
+  whileInView={{ opacity: 1, x: 0 }}
+  transition={{ duration: 0.6 }}
+  className="text-white space-y-6 p-8"
+>
+  <h2 className="text-4xl md:text-5xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-white via-white to-white/80">
+    Get in Touch
+  </h2>
+  <div className="h-1 w-20 bg-gradient-to-r from-blue-500 to-blue-600" />
+
+  <p className="text-lg text-white/80 leading-relaxed">
+    We manufacture high-quality flexible hoses, S.S. braided, Teflon, rubber hose assemblies, and expansion joints under our trusted brand <strong className="text-white">V-Flex</strong>.
+  </p>
+
+  <p className="text-lg text-white/80 leading-relaxed">
+    Ideal for industrial, chemical, and automotive use — our hoses ensure flexibility, durability, and resistance in extreme conditions.
+  </p>
+
+  <Button 
+    asChild
+    size="lg" 
+    className="bg-gradient-to-r from-blue-500 to-blue-600 hover:from-blue-600 hover:to-blue-700 text-white border-2 border-white/20 rounded-full px-8 py-6 text-lg shadow-xl hover:shadow-blue-500/20 transition-all duration-300 hover:scale-105 mt-6"
+  >
+    <Link href="/contact">
+      Contact Us Now
+    </Link>
+  </Button>
+</motion.div>
+
+
         </div>
       </div>
     </div>

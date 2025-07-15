@@ -38,17 +38,17 @@ export default function ProductsPage() {
             </div>
 
             <h1 className="text-4xl md:text-5xl font-bold text-blue-900 mb-6">
-              Agricultural Solutions for{" "}
+              Flexible Hose Solutions for{" "}
               <span className="text-blue-600 relative">
-                Better Tomorrow
+                Modern Industries
                 <div className="absolute -bottom-2 left-0 w-full h-1 bg-blue-200 rounded" />
               </span>
             </h1>
 
-            <p className="text-blue-700 text-lg mt-8">
-              Discover our comprehensive range of agricultural products designed to enhance crop productivity and sustainability
-            </p>
-          </div>
+                <p className="text-blue-700 text-lg mt-8">
+                  Discover our comprehensive range of hydraulic products designed to enhance industrial performance
+                </p>
+            </div>
         </div>
       </section>
 
